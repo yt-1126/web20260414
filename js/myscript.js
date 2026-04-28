@@ -1,7 +1,16 @@
 
-var name = 'cccc';
-var bdYear= 95;
-var age = 19;
-console.log("我是" + name+"，民國"+bdYear+"生，今年" + age + "歲，星期三下午要拍片，好累!沒法睡午覺");
+var math03=20;
+var math04=60;
 
+var agv=(math03+math04)/2;
 
+console.log(agv);
+
+var mathList=[20,60];
+var agv2=(mathList[1]+mathList[2])/2;
+console.log(agv2);
+
+var total=0;
+for (var i = 0; i < mathList.length; i++){total=total+mathList[i];}
+var avg3=total/mathList.length;
+console.log(avg3);
