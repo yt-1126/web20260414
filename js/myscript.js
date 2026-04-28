@@ -1,4 +1,4 @@
-var num = [1, 5, 2, 8, 3,53,210];
+var num = [1, 5, 2, 8, 3, 53, 210];
 
 var max = -99999;
 for (var i = 0; i < num.length; i++) {
@@ -7,3 +7,6 @@ for (var i = 0; i < num.length; i++) {
     }
 }
 console.log("最大值:" + max);
+console.log(num);
+num = num.sort();
+console.log(num);
