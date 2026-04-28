@@ -1,16 +1,9 @@
+var num = [1, 5, 2, 8, 3];
 
-var math03=20;
-var math04=60;
-
-var agv=(math03+math04)/2;
-
-console.log(agv);
-
-var mathList=[20,60];
-var agv2=(mathList[1]+mathList[2])/2;
-console.log(agv2);
-
-var total=0;
-for (var i = 0; i < mathList.length; i++){total=total+mathList[i];}
-var avg3=total/mathList.length;
-console.log(avg3);
+var max = -99999;
+for (var i = 0; i < 5; i++) {
+    if (max < num[i]) {
+        max = num[i];
+    }
+}
+console.log("最大值:" + max);
